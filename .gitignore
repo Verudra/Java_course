@@ -1,0 +1,44 @@
+# 编译产物
+*.class
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# 日志文件
+logs/
+*.log
+
+#  IDE 配置文件
+.idea/
+*.iml
+*.ipr
+*.iws
+.classpath
+.project
+.settings/
+.vscode/
+*.sublime-*
+
+# 构建工具生成文件
+target/        # Maven/Gradle 构建目录
+build/         # Gradle 构建目录
+out/           # IDEA 输出目录
+dist/          # 分发目录
+
+# 依赖库缓存
+.m2/           # Maven 本地仓库缓存
+.gradle/       # Gradle 缓存
+gradle/        # Gradle 包装器文件（如需提交 wrapper 可删除此行）
+!gradle/wrapper/gradle-wrapper.jar
+
+# 操作系统生成文件
+.DS_Store      # macOS
+Thumbs.db      # Windows
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
