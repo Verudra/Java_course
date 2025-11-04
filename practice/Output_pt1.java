@@ -1,6 +1,6 @@
 package practice;
 
-import java.util.Scanner;
+// import java.util.Scanner;
 
 public class Output_pt1 {
     public static void main(String[] args){
